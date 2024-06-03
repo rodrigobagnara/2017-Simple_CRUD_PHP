@@ -1,9 +1,9 @@
 <?php
 
-    $servername = "localhost";
-    $dbname = "crud-php";
-    $username = "root";
-    $password = "Pass123#root";
+    $servername = "localhost"; // Servidor de banco de dados.
+    $dbname = "crud-php";      // Base de dados.
+    $username = "root";        // Usuário da base de dados.
+    $password = "root";        // Senha do usuário da base de dados.
 
     try {
         $pdo = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
